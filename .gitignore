@@ -1,0 +1,26 @@
+# ============================================================
+# Global Ignore Rules for Subfolders (GenAI-course project)
+# ============================================================
+
+# Ignore all environment files anywhere in subfolders
+**/.env
+**/.env.*
+*.env
+
+# Ignore all Python virtual environments in subfolders
+**/venv/
+**/__pycache__/
+
+# Optional: ignore Streamlit cache, build artifacts, etc.
+**/.streamlit/
+**/logs/
+**/cache/
+**/dist/
+**/build/
+**/*.egg-info/
+
+# Optional: ignore IDE and system junk
+**/.vscode/
+**/.idea/
+**/.DS_Store
+**/Thumbs.db
