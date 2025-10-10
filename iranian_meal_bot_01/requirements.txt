@@ -1,0 +1,25 @@
+# Core Web App Framework
+streamlit==1.38.0
+
+# LangChain Framework (for LLM integration and prompt management)
+langchain==0.2.11
+langchain-core==0.2.32
+langchain-community==0.2.7
+
+# For Llama-3 via Hugging Face Hub
+huggingface-hub==0.24.6
+
+# For OpenAI-compatible APIs (if using an OpenAI endpoint or local API)
+openai==1.43.0
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# Optional: if you later want to load local Llama models via transformers
+transformers==4.44.2
+torch==2.4.0
+
+# Utility libraries
+requests==2.32.3
+tqdm==4.66.5
+numpy==1.26.4
