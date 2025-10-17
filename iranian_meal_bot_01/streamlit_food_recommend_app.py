@@ -264,5 +264,3 @@ st.markdown("---")
 st.markdown("**Quick local test suggestions:**")
 st.markdown("- Try: `ingredients: egg, tomato` + `lunch` + `bread` -> Mirza Ghasemi / Kookoo Sabzi style suggestions.")
 st.markdown("- Try: `ingredients: rice, saffron, chicken` + `dinner` + `traditional` -> Chelow Kebab or Tahchin suggestions.")
-
-
