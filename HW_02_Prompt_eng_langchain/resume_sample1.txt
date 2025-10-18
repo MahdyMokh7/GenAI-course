@@ -1,0 +1,20 @@
+Full Name: Sara Moradi  
+Email: sara.moradi@example.com  
+Phone: +98 912 123 4567  
+
+🎓 Education:  
+- MSc in Data Science, University of Tehran (2021)  
+- BSc in Computer Engineering, Sharif University (2018)  
+
+💼 Work Experience:  
+- Data Scientist at Snapp (2022-Present)  
+  • Developed machine learning models for customer segmentation  
+  • Optimized recommendation systems for better user experience  
+- AI Researcher at Digikala (2019-2022)  
+  • Conducted NLP research for automatic product categorization  
+
+🔧 Skills: Python, TensorFlow, PyTorch, SQL, Data Visualization  
+
+📜 Certifications:  
+- Google Data Analytics Professional Certificate  
+- Deep Learning Specialization by Andrew Ng (Coursera)  
