@@ -85,7 +85,6 @@ def info_score(ingredients: str, meal_time: str, cuisine_type: str, heaviness: s
 # ---------------------------
 # LLM Initialization
 # ---------------------------
-
 def init_llm():
     """
     Initialize a LangChain LLM instance depending on PROVIDER and environment variables.
@@ -96,8 +95,12 @@ def init_llm():
         token = os.environ.get("HUGGINGFACEHUB_API_TOKEN", None)
         if not token or not model_name:
             raise RuntimeError("HuggingFace provider selected but HUGGINGFACEHUB_API_TOKEN or LLAMA_MODEL is not set.")
-        # Use HuggingFaceHub LLM wrapper
-        hf = HuggingFaceHub(repo_id=model_name, huggingfacehub_api_token=token, model_kwargs={"temperature":0.7, "max_new_tokens":512})
+        # Use HuggingFaceHub LLM wrapper with the updated API (from environment variable)
+        hf = HuggingFaceHub(
+            repo_id=model_name,
+            huggingfacehub_api_token=token,
+            model_kwargs={"temperature": 0.7, "max_new_tokens": 512}
+        )
         return hf
     else:
         api_key = os.environ.get("OPENAI_API_KEY", None)
@@ -108,6 +111,7 @@ def init_llm():
         # LangChain's OpenAI class reads OPENAI_API_KEY automatically.
         openai_llm = OpenAI(model_name=model_name, temperature=0.7, max_tokens=512)
         return openai_llm
+
 
 # ---------------------------
 # Prompt Template
