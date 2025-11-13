@@ -1,0 +1,44 @@
+# === Core ===
+python-dotenv>=1.0.0
+tiktoken==0.7.0
+
+# === LangChain stack (0.2.x line is stable for 2025) ===
+langchain==0.2.15
+langchain-core==0.2.38
+langchain-community==0.2.12
+
+# === Vector stores ===
+faiss-cpu==1.8.0.post1
+chromadb==0.5.4
+weaviate-client>=3.26.7,<4.0.0        
+
+# === Embeddings & models ===
+sentence-transformers==2.6.1
+transformers==4.43.3
+huggingface_hub==0.24.5
+torch>=2.2.0
+
+# === Persian NLP ===
+hazm==0.7.0
+
+# === PDF / text loading ===
+pypdf==4.2.0
+PyPDF2==3.0.1
+
+# === Optional: OpenAI client for LLMs ===
+openai==1.43.0
+
+# === Optional utilities ===
+requests>=2.31.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# === For running in notebooks ===
+ipykernel>=6.29.0
+jupyterlab>=4.2.0
+
+# === Classic ML (needed for TF-IDF retrievers you import) ===
+scikit-learn==1.4.2
+
+# === NLTK (used by hazm and your code) ===
+nltk==3.9.2
