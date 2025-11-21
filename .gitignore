@@ -26,3 +26,8 @@ notebooks_week06/daneshkar_image_prompt_crafting.ipynb
 **/.idea/
 **/.DS_Store
 **/Thumbs.db
+
+
+# Ignore cached json files
+CA_04_RAG_Chain_Personal_Chatbot/cached_extracted_data/*.jsonl
+CA_04_RAG_Chain_Personal_Chatbot/cached_extracted_data/*.json
