@@ -8,6 +8,7 @@
 *.env
 
 notebooks_week06/daneshkar_image_prompt_crafting.ipynb
+*/daneshkar_image_prompt_crafting.ipynb
 
 # Ignore all Python virtual environments in subfolders
 **/venv/
