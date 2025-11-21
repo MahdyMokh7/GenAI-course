@@ -7,7 +7,7 @@
 **/.env.*
 *.env
 
-./notebooks_week06/daneshkar_image_prompt_crafting.ipynb
+notebooks_week06/daneshkar_image_prompt_crafting.ipynb
 
 # Ignore all Python virtual environments in subfolders
 **/venv/
